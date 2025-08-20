@@ -1,0 +1,41 @@
+/* @import "tailwindcss"; */
+
+
+
+.app-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  padding: 30px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #ff5722;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.jokes-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.joke-item {
+  background: white;
+  margin: 12px 0;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.joke-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
